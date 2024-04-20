@@ -20,10 +20,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-rlyx&8j5^2eb81o$uk*%v*!@a3m-)w190$f8b(8-x3+j!s3c44'
+SECRET_KEY = 'django-insecure-rlyx&8j5^2eb81o$uk*%v*!@a3m-)w190$f8b(8-x3+j!s3c44'  # todo поменять ключ
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True  # todo выключить на продакшене
 
 ALLOWED_HOSTS = []
 
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "Users.apps.UsersConfig"
+    'trucks'
 ]
 
 MIDDLEWARE = [
@@ -104,7 +104,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru'  # todo английский
 
 TIME_ZONE = 'UTC'
 
